@@ -1,0 +1,87 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 1em;
+  background: rgb(250, 200, 80);
+}
+
+center {
+  font-size: 50px;
+  font-style: italic;
+  color: black;
+}
+div.square{
+  font-size: 130px;
+  text-align: center;
+  background: white;
+  border: 2px black solid;
+  width: 150px;
+  height: 150px;
+}
+div.rows{
+  margin: auto;
+  display: flex;
+  width: 450px;
+  height: 150px;
+}
+button{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+
+
+div.dsquare{
+  font-size: 80px;
+  text-align: center;
+  background: white;
+  border: 2px black solid;
+  border-radius: 30px;
+  width: 90px;
+  height: 90px;
+}
+div.notdsquare{
+  font-size: 80px;
+  text-align: center;
+  background: none;
+  border: 2px black solid;
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
+}
+div.dthings{
+  top: 400px;
+  right: 150px;
+  position: absolute;
+}
+div.ddthings{
+  top: 250px;
+  right: 450px;
+  position: absolute;
+}
+div.dddthings{
+  top: 100px;
+  right: 750px;
+  position: absolute;
+}
+div.drows{
+  margin: auto;
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+div.no{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+p{
+    padding: 20px;
+    font-size: 50px;
+    top: 300px;
+    color: white;
+    background: rgb(30, 30, 30);
+    left: 37vw;
+    position: absolute;
+}

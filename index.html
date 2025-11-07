@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TimTamTom</title>
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>  
+  
+      <!-- nice -->
+  
+  <body>
+    
+    <div>
+      <button onclick="Restart()">
+        New Game
+      </button>
+       <select id="gameMode">
+        <option value="3D">3D mode</option>
+        <option value="Classic">Classic</option>
+        <option value="Memory">Memory</option>
+        <option value="purple">Purple</option>
+        <option value="3player">3 Player</option>
+      </select>
+      <select id="versus">
+        <option value="">Play against a friend</option>
+      </select>
+    </div>
+    
+    
+    <centre id="poo">red's turn!</centre>
+    <nothing id="normal">
+    <div class="rows">
+      <div id="1" class="square" onclick="add(1)"></div>
+      <div id="2" class="square" onclick="add(2)"></div>
+      <div id="3" class="square" onclick="add(3)"></div>
+    </div>
+    <div class="rows">
+      <div id="4" class="square" onclick="add(4)"></div>
+      <div id="5" class="square" onclick="add(5)"></div>
+      <div id="6" class="square" onclick="add(6)"></div>
+    </div>
+    <div class="rows">
+      <div id="7" class="square" onclick="add(7)"></div>
+      <div id="8" class="square" onclick="add(8)"></div>
+      <div id="9" class="square" onclick="add(9)"></div>
+    </div>
+    </nothing>
+    
+    
+    
+    
+    <nothing id="3D">
+    <div class="dthings" id="1l">
+    <div class="drows">
+      <div class="no"></div>
+      <div class="no"></div>
+      <div id="1d" class="dsquare" onclick="add(1)"></div>
+      <div id="2d" class="dsquare" onclick="add(2)"></div>
+      <div id="3d" class="dsquare" onclick="add(3)"></div>
+    </div>
+    <div class="drows">
+      <div class="no"></div>
+      <div id="4d" class="dsquare" onclick="add(4)"></div>
+      <div id="5d" class="dsquare" onclick="add(5)"></div>
+      <div id="6d" class="dsquare" onclick="add(6)"></div>
+    </div>
+    <div class="drows">
+      <div id="7d" class="dsquare" onclick="add(7)"></div>
+      <div id="8d" class="dsquare" onclick="add(8)"></div>
+      <div id="9d" class="dsquare" onclick="add(9)"></div>
+    </div>
+    </div>
+      <!-- cbhjegcgebhjb sean -->
+        <div class="ddthings" id="2l">
+    <div class="drows">
+            <div class="no"></div>
+            <div class="no"></div>
+      <div id="10d" class="dsquare" onclick="add(10)"></div>
+      <div id="11d" class="dsquare" onclick="add(11)"></div>
+      <div id="12d" class="dsquare" onclick="add(12)"></div>
+    </div>
+    <div class="drows">
+            <div class="no"></div>
+      <div id="13d" class="dsquare" onclick="add(13)"></div>
+      <div id="14d" class="notdsquare"></div>
+      <div id="15d" class="dsquare" onclick="add(15)"></div>
+    </div>
+    <div class="drows">
+      <div id="16d" class="dsquare" onclick="add(16)"></div>
+      <div id="17d" class="dsquare" onclick="add(17)"></div>
+      <div id="18d" class="dsquare" onclick="add(18)"></div>
+    </div>
+    </div>
+          <!-- cbhjegcgebhjb sean -->
+        <div class="dddthings" id="3l">
+    <div class="drows">
+            <div class="no"></div>
+            <div class="no"></div>
+      <div id="19d" class="dsquare" onclick="add(19)"></div>
+      <div id="20d" class="dsquare" onclick="add(20)"></div>
+      <div id="21d" class="dsquare" onclick="add(21)"></div>
+    </div>
+    <div class="drows">
+            <div class="no"></div>
+      <div id="22d" class="dsquare" onclick="add(22)"></div>
+      <div id="23d" class="dsquare" onclick="add(23)"></div>
+      <div id="24d" class="dsquare" onclick="add(24)"></div>
+    </div>
+    <div class="drows">
+      <div id="25d" class="dsquare" onclick="add(25)"></div>
+      <div id="26d" class="dsquare" onclick="add(26)"></div>
+      <div id="27d" class="dsquare" onclick="add(27)"></div>
+    </div>
+    </div>
+    </nothing>
+    
+    <br>
+    <br>
+    
+    <button id="restart" onclick="Restart()">
+      Restart
+    </button>
+
+  </body>
+</html>
